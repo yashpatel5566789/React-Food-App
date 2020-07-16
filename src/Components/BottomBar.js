@@ -23,12 +23,13 @@ export default function SimpleBottomNavigation() {
 
   return (
     <div className="fixed-bottom">
-    <React.Fragment >
+    <React.Fragment position="static">
     
     
 
     
     <BottomNavigation
+    
       value={value}
       onChange={(event, newValue) => {
         setValue(newValue);

@@ -9,7 +9,10 @@ import {Payment} from './Components/Payments';
 import {Cart} from './Components/Cart';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Search } from './Components/Search';
-import { Account } from './Components/Account'
+import { Account } from './Components/Account';
+import { Veg } from './Components/VegOnly';
+import SwitchVeg from './Components/SwitchVeg';
+import Inc from './Components/Button';
 function App() {
   return (
     <BrowserRouter>
@@ -30,6 +33,9 @@ function App() {
         <Route path='/cart' component={Cart} />
         <Route path='/search' component={Search} />
         <Route path='/account' component={Account} />
+        <Route path='/veg' component={Veg} />
+        <Route path='/switch' component={SwitchVeg} />
+        <Route path='/inc' component={Inc} />
       </Switch>
     
     

@@ -2,9 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 import { NavLink } from 'react-router-dom';
-
+import './Style.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,7 +28,7 @@ export default function HomeNavigation() {
         <Toolbar>
         <NavLink  style={{color: 'white', textDecoration: 'none'}} 
         activeStyle={{color: 'White', textDecoration: 'none'}} to='/location'>
-            <b>Location</b>
+            <b>Location</b><LocationOnIcon />
          </NavLink>
         
         

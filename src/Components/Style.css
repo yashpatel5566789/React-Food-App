@@ -1,6 +1,57 @@
-.appBar {
-    top: 'auto',
-    position: 'absolute',
-    bottom : 370px,
 
+  .a {
+    text-decoration: none !important
   }
+  h6 {
+    position: relative;
+    left: -70px;
+    top: 15px;
+}
+.container{
+  position: relative;
+    left: -70px;
+    top: 15px;
+    margin:0px;
+}
+.zero{
+  position: relative;
+    left: 25px;
+    top: -27px;
+}
+.dec{
+  position: relative;
+    left: 40px;
+    top: -62px;
+}
+
+.button{
+  position: relative;
+    left: 53px;
+    top: -10px;
+}
+.elem{
+  position: relative;
+    left: 260px;
+    top: -24px;
+}
+.vegonlyalignment {
+  position: relative;
+    left: 0px;
+    top: -40px;
+
+}
+div.homealigment {
+  position: relative;
+    left: 0px;
+    top: -40px;
+    width: auto;
+    height: 100%;
+
+}
+.locicon{
+  font-size: 50px;
+}
+
+.img-fluid{
+  width: auto;
+}
