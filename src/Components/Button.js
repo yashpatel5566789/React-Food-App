@@ -3,6 +3,7 @@ import AddBoxOutlinedIcon from '@material-ui/icons/AddBoxOutlined';
 import IndeterminateCheckBoxOutlinedIcon from "@material-ui/icons/IndeterminateCheckBoxOutlined";
 import "./Style.css";
 class Inc extends Component {
+
   constructor(props) {
     super(props);
     this.state = {

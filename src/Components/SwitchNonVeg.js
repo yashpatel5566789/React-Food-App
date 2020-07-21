@@ -58,7 +58,7 @@ const IOSSwitch = withStyles((theme) => ({
     />
   );
 });
-export default function SwitchVeg() {
+export default function SwitchNonVeg() {
   const [state, setState] = React.useState({
     
     checkedB: true,

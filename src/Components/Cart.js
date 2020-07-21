@@ -9,7 +9,7 @@ import Button from "./Button";
 export class Cart extends Component {
   render() {
     return (
-      <div>
+      <div className="tp">
         <CartNavigation />
         <Container fluid="xl " className="my-2">
           <Card border="light" style={{ width: "18rem" , margin:'mb-0'}}>
@@ -36,14 +36,22 @@ export class Cart extends Component {
               </div>
             </div>
           </Card>
-          <div>
-              <h5>Bill Details</h5><hr/>    
-              <h5>Iteam Total<h5 className="elem">100</h5></h5><br/><br/><hr/> 
-              <h5>To Pay<h5 className="elem">100</h5></h5> 
-          </div>
+          <h5>Bill Details</h5><hr/>    
+          <h5>Item Total &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;100</h5><br/><br/><hr/>
+          <h5>To Pay &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;100</h5>
+          <br/>
+          <br/>
+          <br/>
+          <Card >
+          
+              
+          </Card>
         </Container>
         <BottomBar />
       </div>
     );
   }
 }
+
+//<h5>Iteam Total<h5 className="elem">100</h5></h5> 
+  //            <h5>To Pay<h5 className="elem">100</h5></h5> 

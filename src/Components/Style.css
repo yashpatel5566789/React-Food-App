@@ -30,9 +30,10 @@
     top: -10px;
 }
 .elem{
-  position: relative;
+  position:absolute ;
     left: 260px;
     top: -24px;
+
 }
 .vegonlyalignment {
   position: relative;
@@ -54,4 +55,15 @@ div.homealigment {
 
 .img-fluid{
   width: auto;
+}
+.buttonalignment{
+  position: relative;
+  left: 67px;
+  top: -40px;
+}
+.dinneralignment{
+  position: relative;
+  left: 170px;
+  top: -235px;
+
 }
