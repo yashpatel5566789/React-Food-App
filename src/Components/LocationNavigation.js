@@ -98,7 +98,7 @@ export default function LocationNavigation() {
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
-            <InputBase
+            <InputBase id="search_input"
               placeholder="Search…"
               classes={{
                 root: classes.inputRoot,
